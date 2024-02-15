@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+
+    <div class="container">
+
+        <form action="">
+            <label for="mensaje">1. Origen</label><br>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+
+            <label for="mensaje">2. Destino</label><br>
+            <input type="text" id="iban" name="iban" required placeholder="IBAN"><br>
+            <input type="text" id="recipientName" name="recipientName" required placeholder="Nombre Destinatario"><br>
+            
+            <label for="mensaje">3. Cantidad</label><br>
+            <input type="text" id="cantidad" name="cantidad" required placeholder="Cantidad €€€"><br>
+            
+            <label for="mensaje">4. Resumen</label><br>
+            <textarea id="mensaje" name="mensaje" rows="2" cols="50" required></textarea><br>
+
+            <label for="mensaje">5. Confimar</label><br>
+            <button type="submit">Confirmar y Enviar</button>
+        </form>
+    </div>
+
+    <footer></footer>
+</body>
+
+</html>
